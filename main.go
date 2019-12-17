@@ -20,7 +20,7 @@ func main() {
 		passwd       []byte
 	)
 
-	flag.StringVar(&passwordHash, "h", "", "set the password hash to compare against (use this flag with single quotes like: -h='$HASH')")
+	flag.StringVar(&passwordHash, "hash", "", "set the password hash to compare against (use this flag with single quotes like: -hash='$HASH')")
 	flag.Parse()
 	passwd, err := readPassword("Enter password:")
 	if err != nil {
