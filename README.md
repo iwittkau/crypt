@@ -8,7 +8,7 @@ Simple utility to generate and verify bcrypt hashes on the fly.
 Go is required
 
 ```
-go install github.com/iwittkau/crypt@v0.1.1
+go install github.com/iwittkau/crypt@v0.2.0
 ```
 
 # Usage
